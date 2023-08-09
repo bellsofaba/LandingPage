@@ -257,7 +257,6 @@ header .container {
     animation: none; /* Remove animation on smaller screens */
   }
 
-  
   .navbar .buttons {
     display: none;
   }
@@ -294,11 +293,18 @@ header .container {
   }
 }
 
-   .header-body {
+
+@media screen and (max-width: 375px) {
+  .header-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-height: 80vh; /* Optionally adjust the height to suit your design */
+    opacity: 0; /* Initially set opacity to 0 for the transition effect */
+    transform: translateY(20px); /* Move the content slightly up for the transition effect */
+    transition: opacity 0.5s, transform 0.5s; /* Add transition effects for opacity and transform */
   }
+
+
