@@ -248,11 +248,6 @@ header .container {
     z-index: 9;
   }
 
-  
-
-@media screen and (max-width: 1000px) {
-  /* Existing code for other responsive styles */
-
   /* Adjust banner image styles within the media query */
   .banner img {
     width: 100%; /* Allow the image to stretch to the container width */
@@ -263,7 +258,6 @@ header .container {
   }
 
   
-
   .navbar .buttons {
     display: none;
   }
