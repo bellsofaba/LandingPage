@@ -295,6 +295,6 @@ header .container {
   }
 
   .banner {
-    display: none;
+    display: block;
   }
 }
