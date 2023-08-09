@@ -248,6 +248,11 @@ header .container {
     z-index: 9;
   }
 
+
+    .banner {
+    background-color: red; /* Add your desired background color here */
+  }
+  
   /* Adjust banner image styles within the media query */
   .banner img {
     width: 100%; /* Allow the image to stretch to the container width */
