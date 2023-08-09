@@ -293,3 +293,10 @@ header .container {
     display: block;
   }
 }
+
+  .header-body {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center; /* Add this line to center vertically */
+    text-align: center; /* Add this line to center horizontally */
+  }
