@@ -4,4 +4,8 @@ This repository contains the HTML and CSS code for a modern and responsive landi
 
 The landing page highlights cool animations and a call-to-action.
 
+[Live Demo](https://landing-page-ivory-delta.vercel.app/)
+
 ![image](https://github.com/bellsofaba/LandingPage/assets/95832028/af9dfd52-9e65-455f-b186-f011ac12a81d)
+
+
