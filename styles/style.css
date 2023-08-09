@@ -247,6 +247,21 @@ header .container {
     z-index: 9;
   }
 
+  
+
+    /* Adjust banner image styles within the media query */
+  .banner img {
+    width: auto; /* Adjust the width to fit the container */
+    height: auto; /* Allow the height to adjust proportionally */
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    max-height: 300px; /* Limit the height to a reasonable value */
+    margin-top: 0; /* Remove the negative margin */
+    animation: none; /* Remove animation on smaller screens */
+  }
+
+
+  
+
   .navbar .buttons {
     display: none;
   }
