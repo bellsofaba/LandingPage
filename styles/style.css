@@ -247,11 +247,6 @@ header .container {
     overflow: hidden;
     z-index: 9;
   }
-
-
-    .banner {
-    background-color: red; /* Add your desired background color here */
-  }
   
   /* Adjust banner image styles within the media query */
   .banner img {
